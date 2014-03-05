@@ -1,0 +1,67 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+    background: #1A1A1A;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-weight: normal;
+}
+
+#icon {
+    width: 100%;
+    max-width: 300px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.section .lead {
+    font-size: 24px;
+}
+
+.section h4 {
+    padding-top: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+.section p {
+    font-size: 18px;
+}
+
+.portraits {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portraits img {
+    width: 250px;
+}
+
+#faq {
+    margin-top: 30px;
+}
+
+#faq .question {
+    font-size: 18px;
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+#faq .answer {
+    font-size: 16px;
+}
+
+#faq pre {
+    margin-top: 10px;
+}
