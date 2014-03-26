@@ -69,3 +69,24 @@ h1 {
 #faq pre {
     margin-top: 10px;
 }
+
+/* Buttons */
+.apple-sized-btn {
+    width: 165px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.app-store-btn {
+    display: inline-block;
+    overflow: hidden;
+    background: url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;
+    width:165px;
+    height:40px;
+}
+
+@media only screen {
+    .app-store-btn {
+        background: url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.svg) no-repeat;
+    }
+}
