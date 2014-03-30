@@ -8,15 +8,22 @@ mxdownload: https://rink.hockeyapp.net/apps/eace0efdc2a9f246400a77168ca6850a
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="container section" id="faq">
   <h1 class="text-center">FAQ</h1>
-  <p class="lead">Here's where I can answer common questions. If you have a question that's not on this list, you can tweet <a href="https://twitter.com/maxelapp">@maxelapp</a> or email <a href="mailto:support@maxelapp.com">support@maxelapp.com</a>.
+  <p class="lead text-center">Here's where I can answer common questions. If you have a question that's not on this list, you can tweet <a href="https://twitter.com/maxelapp">@maxelapp</a> or email <a href="mailto:support@maxelapp.com">support@maxelapp.com</a>.
+  <hr/>
 
   <h1>Questions</h1>
   <div class="question">How do I add a download?</div>
   <div class="answer">
     <p>There are many ways to initiate new downloads. The easiest is to highlight text containing links in your browser (like Safari) and then drag this text into Maxel's dock icon or window.</p>
     <p>You could also press Command + N (⌘N) in Maxel to open the Add Sheet. <a href="/add-sheet.html">Click</a> for more details on the Add Sheet.</p>
-    <p>And finally, you can also try the experimental <a href="https://chrome.google.com/webstore/detail/chrome-to-maxel/chgjmjbmaokmnccgmbfhlhhmnckhndcb">Chrome To Maxel</a> if you're using Google Chrome.</p>
+    <p>And finally, you can also try one of Maxel's <a href="/browsers.html">browser extensions</a>.</p>
 
+  </div>
+  <div class="question" id="browserext">What browsers have Maxel extensions?</div>
+  <div class="answer">
+    <p>You can add downloads from any text, but Maxel provides browser extensions for convenience. See <a href="/browsers.html">supported browsers</a></p>
+
+    <p>For developing your own browser extensions, see the <a href="/faq.html#API">API</a>.</p>
   </div>
   <div class="question">I'm not seeing my download speed improve?</div>
   <div class="answer">Maxel will only increase your speeds up to the bandwidth of your computer's connection. So if you have a 3 Mbps cable connection, that's the fastest you'll go. But in this case, Maxel will help if the server you're downloading from will only give you 300 kbps&mdash;just crank up the threads to 10, and you should get about 3 Mbps.</div>
@@ -28,6 +35,11 @@ mxdownload: https://rink.hockeyapp.net/apps/eace0efdc2a9f246400a77168ca6850a
   Add the line<br>
   <pre>MaxStartups 100:30:160</pre><br>
   This will allow you to establish up to 100 connections simultaneously.
+  </div>
+
+  <div class="question" id="API">How can I add downloads programatically?</div>
+  <div class="answer">
+    <p>Maxel responds to the maxel:// protocol. See <a href="/api.html">API help</a> for details.</p>
   </div>
 
   <hr/>
