@@ -78,10 +78,21 @@ h1 {
 }
 
 /* Buttons */
+.buttonset {
+    margin-top: 15px;
+}
+.buttonset a {
+    margin-top: 15px;
+}
 .apple-sized-btn {
-    width: 165px;
+    background: #2E9ED1;
     height: 40px;
     font-size: 17px;
+    line-height: 27px;
+}
+
+.apple-sized-btn:hover {
+    background: #1C85B5;
 }
 
 .app-store-btn {

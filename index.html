@@ -2,6 +2,7 @@
 layout: home
 title: Maxel
 mxdownload: https://rink.hockeyapp.net/apps/eace0efdc2a9f246400a77168ca6850a
+demodownload: https://rink.hockeyapp.net/apps/28f866a3599177c302907416c9913a92
 active: Home
 ---
 
@@ -15,8 +16,16 @@ active: Home
       <div class="col-md-9">
         <h1>Maxel</h1>
         <p>Native download accelerator for Mac OS X. Unleash your bandwidth.</p>
-        <br>
-        <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" target="itunes_store" class="app-store-btn"></a>
+
+        <div class="row buttonset">
+          <div class="col-md-3">
+            <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
+
+          </div>
+          <div class="col-md-2">
+            <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" target="itunes_store" class="app-store-btn"></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -99,6 +108,8 @@ active: Home
         <a href="/api.html">API</a>
         &bull;
         <a href="/faq.html">Other (FAQ)</a>
+        <br/>
+        <a href="{{page.demodownload}}"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
       </div>
     </div>
   </div>
