@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Extension Updates</key>
+   <array>
+     <dict>
+       <key>CFBundleIdentifier</key>
+       <string>com.unregistered.Safari2Maxel</string>
+       <key>Developer Identifier</key>
+       <string>EY7435E5E3</string>
+       <key>CFBundleVersion</key>
+       <string>4</string>
+       <key>CFBundleShortVersionString</key>
+       <string>1.0</string>
+       <key>URL</key>
+       <string>http://maxelapp.com/Safari2Maxel.safariextz</string>
+     </dict>
+   </array>
+</dict>
+</plist>
+
