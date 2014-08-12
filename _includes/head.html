@@ -42,18 +42,13 @@
 <!-- End Google Analytics -->
 
 <script>
-// Label is optional, e is the element which we will read href from
 var trackOutboundLink = function(e, label) {
   var url = $(e).attr('href');
   var goToURL = function() {
     document.location = url;
   }
 
-  if (!label) {
-    ga('send', 'event', 'outbound', 'click', url, {'hitCallback': goToURL});
-  } else {
-    ga('send', 'event', 'outbound', 'click', label, {'hitCallback': goToURL});
-  }
+  ga('send', 'event', 'outbound', 'click', label, {'hitCallback': goToURL});
 
   // In case ga fails...
   setTimeout(function() {
