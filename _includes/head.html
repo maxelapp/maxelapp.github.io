@@ -52,7 +52,7 @@ var trackOutboundLink = function(e, label) {
   if (!label) {
     ga('send', 'event', 'outbound', 'click', url, {'hitCallback': goToURL});
   } else {
-    ga('send', 'event', 'outbound', 'click', label, url, {'hitCallback': goToURL});
+    ga('send', 'event', 'outbound', 'click', label, {'hitCallback': goToURL});
   }
 
   // In case ga fails...
