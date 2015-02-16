@@ -23,6 +23,10 @@ h1 {
     font-weight: 300;
 }
 
+h1.smaller {
+    font-size: 40px;
+}
+
 .section .lead {
     font-size: 24px;
 }

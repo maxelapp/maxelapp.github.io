@@ -1,0 +1,91 @@
+---
+layout: home
+title: Maxel Download Accelerator for Mac OS X
+meta: Maxel is a beautifully designed download accelerator for Mac OS X. Learn how Maxel can make your downloads faster, saving you time and taking advantage of your full internet bandwidth.
+demodownload: https://rink.hockeyapp.net/apps/28f866a3599177c302907416c9913a92
+---
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h2>Maxel</h2>
+        <p>Don't just manage your downloads: accelerate them.</p>
+
+        <div class="row buttonset">
+          <div class="col-md-3">
+            <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}" onclick="trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
+
+          </div>
+          <div class="col-md-2">
+            <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" onclick="trackOutboundLink(this, 'appStore'); return false;" target="itunes_store" class="app-store-btn"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container section" id="features">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h1 class="smaller">How Does Maxel Accelerate Downloads?</h1>
+
+      <p>Without Maxel, a 5GB file took 4.6 hours to download, even with a 100Mbit connection. Using Maxel, I downloaded that same file in less than 10 minutes.</p>
+
+      <p>It almost seems a little too good to be true, right? In this article, I'll explain how Maxel works its magic. Or: <a href="{{page.demodownload}}" onclick="trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download the Demo</a> and try for yourself!</p>
+
+      <h2>Your Bandwidth is Limited by Latency</h2>
+
+      <p>You might have noticed that not all downloads occur at the same speed, even at the same time of day on the same connection (network congestion famously affects Cable users). Perhaps a download from one site comes close to maxing your connection, while a different download drags on at 1995 speeds. There are a number of possible causes:</p>
+
+      <ul>
+        <li>The server which is serving your download request is overloaded</li>
+        <li>Your connection is currently saturated by other downloads</li>
+        <li>The server isn't located within the same city</li>
+      </ul>
+
+      <p>Maxel helps with the third issue, which plagues most downloads online which aren't backed by a CDN (content delivery networks will solve this issue but are expensive, especially for larger downloads). This issue is particularly bad if the downloads are hosted overseas or a couple timezones away.</p>
+
+      <p>While it's generally accepted that your download speeds are affected by your maximum <strong>bandwidth</strong>, it turns out that download speeds are also directly affected by the time it takes for a single bit of information to reach your computer from the server, which is called <strong>latency</strong>.</p>
+
+      <h2>The Moving Van Analogy</h2>
+      <p>Moving bits around is kind of abstract, so it's useful to make an analogy. For our purposes, downloading a file from a server to your computer is a lot like moving furniture from your old apartment to your new one.</p>
+
+      <p>Let's say you have 1000 bookshelves to move. Your moving van carries 5 shelves at a time, so you'll need at least 20 trips. If you're moving down the street and each trip takes 2 minutes, it'll take you 40 minutes to move. Not bad. We can even compute your "bookshelf bandwidth": 2.5 bookshelves per minute.</p>
+
+      <p>But let's say you're moving from San Francisco to Manhattan. You still need 20 trips, but now each trip takes 200 hours. Your new "bookshelf bandwidth" is 0.6 bookshelves per day.</p>
+
+<!--       <blockquote>This observation was formalized by the mathmatician Little in XXXX. The way in which bits and bytes are exchanged for downloading files (TCP) is remarkably similar to the moving van analogy.</blockquote>
+ -->
+      <h2>Getting Some Help: Splitting Work</h2>
+
+      <p>So can we do better? Suppose you got your 9 other friends to bring their vans and help you move (which is just everyone's favorite thing to do). Now you'll only need 2 round trips per van, cutting the time from 40 minutes to 4 minutes for the first scenario, and 23 weeks down to two and a half weeks.</p>
+
+      <p>Downloading a file with Maxel is a lot like getting 100 friends to help you move, except Maxel's movers love moving and won't resent you afterwards. Of course, much like the moving van analogy, speedups from download acceleration will vary from drastic (hours to minutes) to modest (maybe halving the download time) to no difference at all. It all depends on how badly latency affects the current download speed.</p>
+
+      <p>Now that you know how download accelerators work, download Maxel and see it in action!</p>
+
+    </div>
+  </div>
+
+  <div class="container" id="calltoaction">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <br/>
+        <a class="btn btn-primary btn-block btn-lg" href="{{page.demodownload}}" onclick="trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Free Demo</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+        <br/>
+        <a class="btn btn-default btn-block" href="/">Go Home</a>
+      </div>
+    </div>
+  </div>
+
+</div>
