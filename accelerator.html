@@ -16,7 +16,6 @@ demodownload: https://rink.hockeyapp.net/apps/28f866a3599177c302907416c9913a92
         <div class="row buttonset">
           <div class="col-md-3">
             <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}" onclick="trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
-
           </div>
           <div class="col-md-2">
             <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" onclick="trackOutboundLink(this, 'appStore'); return false;" target="itunes_store" class="app-store-btn"></a>
@@ -34,9 +33,9 @@ demodownload: https://rink.hockeyapp.net/apps/28f866a3599177c302907416c9913a92
     <div class="col-lg-8 col-lg-offset-2">
       <h1 class="smaller">How Does Maxel Accelerate Downloads?</h1>
 
-      <p>Without Maxel, a 5GB file took 4.6 hours to download, even with a 100Mbit connection. Using Maxel, I downloaded that same file in less than 10 minutes.</p>
+      <p>Without Maxel, a 5GB file took 4.6 hours to download. Using Maxel, I downloaded that same file in less than 10 minutes.</p>
 
-      <p>It almost seems a little too good to be true, right? In this article, I'll explain how Maxel works its magic. Or: <a href="{{page.demodownload}}" onclick="trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download the Demo</a> and try for yourself!</p>
+      <p>It almost seems a little too good to be true, right? In this article, I'll explain how Maxel works its magic. Or: <a href="{{page.demodownload}}" onclick="trackOutboundLink(this, 'downloadDemo'); return false;">Download the Demo</a> and try for yourself!</p>
 
       <h2>Your Bandwidth is Limited by Latency</h2>
 
@@ -59,8 +58,8 @@ demodownload: https://rink.hockeyapp.net/apps/28f866a3599177c302907416c9913a92
 
       <p>But let's say you're moving from San Francisco to Manhattan. You still need 20 trips, but now each trip takes 200 hours. Your new "bookshelf bandwidth" is 0.6 bookshelves per day.</p>
 
-<!--       <blockquote>This observation was formalized by the mathmatician Little in XXXX. The way in which bits and bytes are exchanged for downloading files (TCP) is remarkably similar to the moving van analogy.</blockquote>
- -->
+      <blockquote>This observation is described formally by <a href="http://en.wikipedia.org/wiki/Little%27s_law">Little's Law</a>. The way in which bits and bytes are exchanged for downloading files (TCP) is remarkably similar to the moving van analogy due TCP's use of a <a href="http://en.wikipedia.org/wiki/Transmission_Control_Protocol#Flow_control">sliding window</a> for flow control.</blockquote>
+
       <h2>Getting Some Help: Splitting Work</h2>
 
       <p>So can we do better? Suppose you got your 9 other friends to bring their vans and help you move (which is just everyone's favorite thing to do). Now you'll only need 2 round trips per van, cutting the time from 40 minutes to 4 minutes for the first scenario, and 23 weeks down to two and a half weeks.</p>
