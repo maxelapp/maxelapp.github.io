@@ -27,6 +27,11 @@ h1.smaller {
     font-size: 40px;
 }
 
+.dark {
+    background: #1A1A1A;
+    color: white;
+}
+
 .section .lead {
     font-size: 24px;
 }

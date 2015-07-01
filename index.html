@@ -19,10 +19,10 @@ active: Home
 
         <div class="row buttonset">
           <div class="col-md-3">
-            <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}" onclick="trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
+            <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}" onclick="trackFacebookEvent('6025790683015') && trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
           </div>
           <div class="col-md-2">
-            <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" onclick="trackOutboundLink(this, 'appStore'); return false;" target="itunes_store" class="app-store-btn"></a>
+            <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" onclick="trackFacebookEvent('6025791562815') && trackOutboundLink(this, 'appStore'); return false;" target="itunes_store" class="app-store-btn"></a>
           </div>
         </div>
       </div>
@@ -74,11 +74,11 @@ active: Home
   <h1>Downright Delightful</h1>
   <p class="lead">An experience only possible in a native app.</p>
 
-  <div class="row portraits">
+<!--   <div class="row portraits">
     <div class="col-md-4"><img class="img-thumbnail" src="images/graphics-03.png"/></div>
     <div class="col-md-4"><img class="img-thumbnail" src="images/graphics-04.png"/></div>
     <div class="col-md-4"><img class="img-thumbnail" src="images/graphics-05.png"/></div>
-  </div>
+  </div> -->
 
   <p>Because Maxel is a Mac app, it behaves as you would expect. Keyboard shortcuts, Quicklook, and more&mdash;Maxel will make you feel right at home.</p>
   <p>Other features include:</p>
@@ -96,10 +96,36 @@ active: Home
 
 <hr/>
 
+<div class="jumbotron section dark">
+<div class="container section dark" id="testimonials">
+  <div class="row">
+    <div class="col-md-4">
+      <blockquote>
+        <p>... I've tried every download manager worth trying on Mac. Maxel has to be the only one that seems efficiently made and well designed.</p>
+        <footer>maxiedaniels, Mac App Store</footer>
+      </blockquote>
+    </div>
+    <div class="col-md-4">
+      <blockquote>
+        <p>It is the only way I have been able to come close to maxing out my bandwidth. Maxel runs very well and has a great dev. Glad to see it make it into the app store!</p>
+        <footer>dr3van, Mac App Store</footer>
+      </blockquote>
+    </div>
+    <div class="col-md-4">
+      <blockquote>
+        <p>Really happy with this app. Now that Speed Download is no longer supported/developed, I needed a replacement and this is it.</p>
+        <footer>Stevenjones69, Mac App Store</footer>
+      </blockquote>
+    </div>
+  </div>
+</div>
+</div>
+
+
 <div class="container" id="calltoaction">
   <div class="row">
     <div class="text-center">
-      <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" target="itunes_store" class="app-store-btn"></a>
+      <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" target="itunes_store" onclick="trackFacebookEvent('6025791562815') && trackOutboundLink(this, 'appStore'); return false;" class="app-store-btn"></a>
       <br/>
       Or, learn more about:
       <br/>
@@ -113,7 +139,7 @@ active: Home
       &bull;
       <a href="/faq.html">Other (FAQ)</a>
       <br/>
-      <a href="{{page.demodownload}}"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
+      <a href="{{page.demodownload}}" onclick="trackFacebookEvent('6025790683015') && trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
     </div>
   </div>
 </div>
