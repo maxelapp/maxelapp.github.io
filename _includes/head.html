@@ -14,7 +14,7 @@
 <!-- Custom styles for this template -->
 <link href="stylesheets/style.css" rel="stylesheet">
 
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!-- Just for debugging purposes. Don't actually copy this line! -->
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -79,3 +79,9 @@ var trackOutboundLink = function(e, label) {
 </script>
 
 <script src="//cdn.optimizely.com/js/2652440298.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>

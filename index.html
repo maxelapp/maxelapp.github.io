@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Maxel Download Manager for Mac OS X
-meta: Maxel is the highest ranked download manager on the App Store. See how Maxel can help manage your downloads and allow you to maximize your bandwidth, all with a clean, native interface to help you manage your downloads.
+meta: Maxel is a download manager for Mac OS X. Maxel manages your downloads and maximizes your bandwidth.
 demodownload: https://rink.hockeyapp.net/apps/28f866a3599177c302907416c9913a92
 active: Home
 ---
@@ -15,14 +15,22 @@ active: Home
       </div>
       <div class="col-md-9">
         <h1>Maxel</h1>
-        <p>Native download manager for Mac OS X. Unleash your bandwidth.</p>
+        <p>Smart download manager for Mac OS X. Unleash your bandwidth.</p>
 
         <div class="row buttonset">
-          <div class="col-md-3">
-            <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}" onclick="trackFacebookEvent('6025790683015') && trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
+          <div class="col-md-4" style="width: 230px">
+            <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}" onclick="trackFacebookEvent('6025790683015') && trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Free Demo</a>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2" style="width: 195px">
             <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" onclick="trackFacebookEvent('6025791562815') && trackOutboundLink(this, 'appStore'); return false;" target="itunes_store" class="app-store-btn"></a>
+            <br/>
+            <div class="text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -30,9 +38,34 @@ active: Home
   </div>
 </div>
 
+
+<div class="container section" id="experience">
+  <div class="col-md-6">
+    <h1>Smart</h1>
+
+    <h2>Resume Interrupted Downloads</h2>
+    <p>Maxel saves partial downloads so you can resume them anytime, and you won't lose your progress if your computer restarts<a data-toggle="tooltip" title="For downloads from servers which support multipart requests, which should be most servers. Some services prohibit this and force streaming downloads, such as Dropbox or Google Drive. Try the demo if you depend on a specific service.">*</a>.</p>
+
+    <h2>Fits into Your Workflow</h2>
+    <p>Effortlessly add downloads to Maxel:</p>
+    <ul>
+      <li>copy &amp; paste links</li>
+      <li>drag &amp; drop text snippets and Maxel will extract links</li>
+      <li>automatically download large files from your <a href="/browsers.html">existing browser</a></li>
+      <li>download authenticated files from Maxel's <a href="/builtin-browser.html">built-in browser</a></li>
+    </ul>
+  </div>
+
+  <div class="col-md-6">
+    <img src="images/graphics-02.png" width="100%"/>
+  </div>
+</div>
+
+<hr/>
+
 <div class="container section" id="features">
   <h1>Fast</h1>
-  <p class="lead">Maxel is no ordinary download manager.</p>
+  <p class="lead">Download files faster with download acceleration.</p>
 
   <!-- Example row of columns -->
   <div class="row">
@@ -42,29 +75,10 @@ active: Home
 
     <div class="col-md-5 aux">
       <h2>Real Speed</h2>
-      <p>Maxel is a download <em>accelerator</em>&mdash;it splits each download in up to 100 parts and downloads each part simultaneously to let you max your bandwidth.</p>
+      <p>Maxel is a download <em>accelerator</em>&mdash;it splits each download in up to 100 parts and downloads each part simultaneously to let you max your bandwidth.&nbsp;<a href="/accelerator.html" class="small">Learn More</a></p></p>
       <h2>Easy on the CPU</h2>
-      <p>Maxel's core download engine is written in C for blazing fast performance, and parallelizes more efficiently than competing download accelerators. &nbsp;<a href="/accelerator.html" class="small">Learn More</a></p>
+      <p>Maxel's core download engine is written in C for blazing fast performance, and parallelizes more efficiently than competing download accelerators.
     </div>
-  </div>
-</div>
-
-<hr/>
-
-<div class="container section" id="experience">
-  <div class="col-md-6">
-    <h1>Smart</h1>
-    <p class="lead">Software that works and gets out of your way.</p>
-
-    <h2>Set it &amp; Forget it</h2>
-    <p>Maxel manages your downloads for you, so you don't have to. Add as many files as you want, and Maxel will download them without your intervention.</p>
-
-    <h2>Maxel Saves</h2>
-    <p>Maxel saves partial downloads so you can resume them anytime, and you won't lose your progress if your computer restarts.</p>
-  </div>
-
-  <div class="col-md-6">
-    <img src="images/graphics-02.png" width="100%"/>
   </div>
 </div>
 
@@ -80,12 +94,10 @@ active: Home
     <div class="col-md-4"><img class="img-thumbnail" src="images/graphics-05.png"/></div>
   </div> -->
 
-  <p>Because Maxel is a Mac app, it behaves as you would expect. Keyboard shortcuts, Quicklook, and more&mdash;Maxel will make you feel right at home.</p>
+  <p>Maxel behaves as you would expect from a Mac App: familiar keyboard shortcuts, Quicklook, and more&mdash;Maxel will make you feel right at home.</p>
   <p>Other features include:</p>
   <ul>
-    <li>Drag &amp; drop snippets of webpages into Maxel to download any links within</li>
-    <li>Download files from Maxel's <a href="/builtin-browser.html">built-in browser</a>, which handles authenticated downloads with ease</li>
-    <li>Kickoff downloads from within <a href="/browsers.html">your own browser</a></li>
+    <li>Detecting stalled downloads and retrying</li>
     <li>Computing MD5/SHA1 hashes of files to detect corruption</li>
     <li>SSH public key authentication for SFTP</li>
     <li>API for adding downloads in scripts</li>
@@ -96,7 +108,7 @@ active: Home
 
 <hr/>
 
-<div class="jumbotron section dark">
+<!-- <div class="jumbotron section dark">
 <div class="container section dark" id="testimonials">
   <div class="row">
     <div class="col-md-4">
@@ -119,14 +131,19 @@ active: Home
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 
 <div class="container" id="calltoaction">
+  <div class="buttonset text-center">
+    <a class="btn btn-primary apple-sized-btn" href="{{page.demodownload}}" onclick="trackFacebookEvent('6025790683015') && trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Free Demo</a>
+    <br/>
+    <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" target="itunes_store" onclick="trackFacebookEvent('6025791562815') && trackOutboundLink(this, 'appStore'); return false;" class="app-store-btn"></a>
+      <br/>
+  </div>
+
   <div class="row">
     <div class="text-center">
-      <a href="https://itunes.apple.com/us/app/maxel-download-accelerator/id837352001?mt=12&amp;uo=4" target="itunes_store" onclick="trackFacebookEvent('6025791562815') && trackOutboundLink(this, 'appStore'); return false;" class="app-store-btn"></a>
-      <br/>
       Or, learn more about:
       <br/>
       <a href="/accelerator.html">Download Acceleration</a>
@@ -138,8 +155,6 @@ active: Home
       <a href="/api.html">API</a>
       &bull;
       <a href="/faq.html">Other (FAQ)</a>
-      <br/>
-      <a href="{{page.demodownload}}" onclick="trackFacebookEvent('6025790683015') && trackOutboundLink(this, 'downloadDemo'); return false;"><i class="fa fa-arrow-circle-down"></i> Download Demo</a>
     </div>
   </div>
 </div>
