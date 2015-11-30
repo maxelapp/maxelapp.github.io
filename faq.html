@@ -1,29 +1,29 @@
 ---
 layout: page
-title: Maxel FAQ
+title: Maxel Frequently Asked Questions
 active: FAQ
 ---
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="container section" id="faq">
   <h1 class="text-center">FAQ</h1>
-  <p class="lead text-center">Here's where I can answer common questions. If you have a question that's not on this list, you can tweet <a href="https://twitter.com/maxelapp">@maxelapp</a> or email <a href="mailto:support@maxelapp.com">support@maxelapp.com</a>.
+  <p class="lead text-center">Here's where I can answer common questions. If you have a question that's not on this list, tweet <a href="https://twitter.com/maxelapp">@maxelapp</a> or email <a href="mailto:support@maxelapp.com">support@maxelapp.com</a> and I'll be glad to help!
   <hr/>
 
-  <h1>Questions</h1>
   <div class="question">How do I add a download?</div>
   <div class="answer">
-    <p>There are many ways to initiate new downloads. The easiest is to highlight text containing links in your browser (like Safari) and then drag this text into Maxel's dock icon or window.</p>
+    <p>There are many ways to initiate new downloads:</p>
+    <h4>1. Drag &amp; Drop</h4>
+    <p>The easiest is to highlight text containing links in your browser (like Safari) and then drag this text into Maxel's dock icon or window.</p>
+    <h4>2. Using the Ad Sheet</h4>
     <p>You could also press Command + N (⌘N) in Maxel to open the Add Sheet. <a href="/add-sheet.html">Click</a> for more details on the Add Sheet.</p>
-    <p>And finally, you can also try one of Maxel's <a href="/browsers.html">browser extensions</a>.</p>
-
+    <h4>3. Extensions for your Browser</h4>
+    <p>Many users use one of Maxel's <a href="/browsers.html">browser extensions</a>, which provide even easier ways to add downloads.</p>
+    <h4>4. Using the Built-in Browser</h4>
+    <p>Downloads which require a login to access can be started from Maxel's <a href="/builtin-browser.html">Built-in Browser</a>. Or, you can use the built-in browser if you have many downloads you want to start. Any downloads initiated from the built-in browser are automatically downloaded through Maxel.</p>
   </div>
-  <div class="question" id="browserext">What browsers have Maxel extensions?</div>
-  <div class="answer">
-    <p>You can add downloads from any text, but Maxel provides browser extensions for convenience. See <a href="/browsers.html">supported browsers</a></p>
-
-    <p>For developing your own browser extensions, see the <a href="/faq.html#API">API</a>.</p>
-  </div>
+  <div class="question">Maxel says my download doesn't support multipart connections</div>
+  <div class="answer">Not all servers support multipart downloading. Some services restrict this capability to paid memberships, or may disable it entirely to save bandwidth. In this case, Maxel will revert back to a normal, single connection download which isn't resumable. If you have a download which Maxel won't split which it should, email me with a link and I'll take a look: <a href="mailto:support@maxelapp.com">support@maxelapp.com</a></div>
   <div class="question">I'm not seeing my download speed improve?</div>
   <div class="answer">Maxel will only increase your speeds up to the bandwidth of your computer's connection. So if you have a 3 Mbps cable connection, that's the fastest you'll go. But in this case, Maxel will help if the server you're downloading from will only give you 300 kbps&mdash;just crank up the threads to 10, and you should get about 3 Mbps.</div>
   <div class="question">Maxel gets slow when I use 100+ connections?</div>
