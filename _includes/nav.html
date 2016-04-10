@@ -22,6 +22,12 @@
         {% else %}
           <li><a href="/faq.html">FAQ</a></li>
         {% endif %}
+
+        {% if page.active == "Press" %}
+          <li class="active"><a href="/presskit.html">For Press</a></li>
+        {% else %}
+          <li><a href="/presskit.html">For Press</a></li>
+        {% endif %}
       </ul>
 
       <ul class="nav navbar-nav navbar-right">

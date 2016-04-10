@@ -41,6 +41,16 @@ active: FAQ
     <p>Maxel responds to the maxel:// protocol. See <a href="/api.html">API help</a> for details.</p>
   </div>
 
+  <div class="question">Maxel doesn't open when I intercept or initiate a download from a browser extension</div>
+  <div class="answer">
+    <p>Sometimes LaunchServices messes up and fails to target Maxel. This can happen if you upgraded from the demo and kept both apps, or have multiple copies of Maxel on your computer.</p>
+
+    <p>First, make sure to remove the Demo if you still have it, and make sure Maxel.app is installed in your Applications folder.</p>
+
+    <p>If that doesn't work, try resetting the LaunchServices database. In 10.9:</p>
+    <pre>/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user</pre>
+  </div>
+
   <hr/>
 
   <div class="container" id="calltoaction">
