@@ -10,11 +10,11 @@
        <key>Developer Identifier</key>
        <string>EY7435E5E3</string>
        <key>CFBundleVersion</key>
-       <string>6</string>
+       <string>7</string>
        <key>CFBundleShortVersionString</key>
-       <string>1.29</string>
+       <string>1.30</string>
        <key>URL</key>
-       <string>http://maxelapp.com/SendToMaxel.safariextz</string>
+       <string>https://maxelapp.com/SendToMaxel.safariextz</string>
      </dict>
    </array>
 </dict>
